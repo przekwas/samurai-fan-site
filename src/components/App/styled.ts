@@ -7,9 +7,10 @@ export const RootLayout = styled.div`
 	align-items: center;
 	min-height: 100vh;
 	color: gainsboro;
+	padding: 0rem 1rem;
 
 	background: radial-gradient(circle, rgba(0, 0, 0, 1) 46%, rgba(170, 11, 11, 1) 100%);
-	background-size: 400% 400%;
+	background-size: 150% 150%;
 	animation: gradient 15s ease infinite;
 
 	@keyframes gradient {

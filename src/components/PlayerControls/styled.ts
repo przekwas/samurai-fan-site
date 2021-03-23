@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 export const PlayerControlsDiv = styled.div`
 	margin-top: 1rem;
+	width: 100%;
+	max-width: 25rem;
 `;
 
 export const Marquee = styled.div`
 	height: 2rem;
-	min-width: 25rem;
+	width: 100%;
+	max-width: 25rem;
 	overflow: hidden;
 	position: relative;
 `;

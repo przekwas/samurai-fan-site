@@ -7,13 +7,13 @@ const TheBalladOfBuckRavers = require('../assets/music/samurai-the_ballad_of_buc
 export const MusicPlayerContext = createContext<any>([{}, () => {}]);
 
 export interface MusicContextState {
-    audioPlayer: HTMLAudioElement;
-    isPlaying: boolean;
-    currentTrackIndex: number;
-    tracks: {
-        name: string;
-        file: any;
-    }[];
+	audioPlayer: HTMLAudioElement;
+	isPlaying: boolean;
+	currentTrackIndex: number;
+	tracks: {
+		name: string;
+		file: any;
+	}[];
 }
 
 const MusicPlayerProvider = ({ children }: MusicPlayerProviderProps) => {
@@ -23,19 +23,19 @@ const MusicPlayerProvider = ({ children }: MusicPlayerProviderProps) => {
 		currentTrackIndex: 0,
 		tracks: [
 			{
-				name: 'Samurai - Black Dog',
+				name: 'Black Dog',
 				file: BlackDog.default
 			},
 			{
-				name: "Samurai - Chippin' in",
+				name: "Chippin' in",
 				file: ChippinIn.default
 			},
 			{
-				name: 'Samurai - Never Fade Away',
+				name: 'Never Fade Away',
 				file: NeverFadeAway.default
 			},
 			{
-				name: 'Samurai - The Ballad of Buck Ravers',
+				name: 'The Ballad of Buck Ravers',
 				file: TheBalladOfBuckRavers.default
 			}
 		]

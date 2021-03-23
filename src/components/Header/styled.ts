@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Logo = styled.img`
-	max-width: 25rem;
+	max-width: 20rem;
 `;
 
 export const Greeting = styled.p`
