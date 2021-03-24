@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/samurai-fan-site/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/samurai-fan-site/static/js/main.1388ab8e.chunk.js",
-    "main.js.map": "/samurai-fan-site/static/js/main.1388ab8e.chunk.js.map",
-    "runtime-main.js": "/samurai-fan-site/static/js/runtime-main.3a4fde02.js",
-    "runtime-main.js.map": "/samurai-fan-site/static/js/runtime-main.3a4fde02.js.map",
-    "static/js/2.7d8e1b9c.chunk.js": "/samurai-fan-site/static/js/2.7d8e1b9c.chunk.js",
-    "static/js/2.7d8e1b9c.chunk.js.map": "/samurai-fan-site/static/js/2.7d8e1b9c.chunk.js.map",
-    "static/js/3.27cd6fc0.chunk.js": "/samurai-fan-site/static/js/3.27cd6fc0.chunk.js",
-    "static/js/3.27cd6fc0.chunk.js.map": "/samurai-fan-site/static/js/3.27cd6fc0.chunk.js.map",
+    "main.js": "/samurai-fan-site/static/js/main.19ede555.chunk.js",
+    "main.js.map": "/samurai-fan-site/static/js/main.19ede555.chunk.js.map",
+    "runtime-main.js": "/samurai-fan-site/static/js/runtime-main.05e5326e.js",
+    "runtime-main.js.map": "/samurai-fan-site/static/js/runtime-main.05e5326e.js.map",
+    "static/js/2.4d42e74c.chunk.js": "/samurai-fan-site/static/js/2.4d42e74c.chunk.js",
+    "static/js/2.4d42e74c.chunk.js.map": "/samurai-fan-site/static/js/2.4d42e74c.chunk.js.map",
+    "static/js/3.6dff8dd2.chunk.js": "/samurai-fan-site/static/js/3.6dff8dd2.chunk.js",
+    "static/js/3.6dff8dd2.chunk.js.map": "/samurai-fan-site/static/js/3.6dff8dd2.chunk.js.map",
     "index.html": "/samurai-fan-site/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/samurai-fan-site/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.7d8e1b9c.chunk.js.LICENSE.txt": "/samurai-fan-site/static/js/2.7d8e1b9c.chunk.js.LICENSE.txt",
+    "static/js/2.4d42e74c.chunk.js.LICENSE.txt": "/samurai-fan-site/static/js/2.4d42e74c.chunk.js.LICENSE.txt",
     "static/media/samurai-black_dog.mp3": "/samurai-fan-site/static/media/samurai-black_dog.71549499.mp3",
     "static/media/samurai-chippin_in.mp3": "/samurai-fan-site/static/media/samurai-chippin_in.b20f0b22.mp3",
     "static/media/samurai-logo-transparent.37d58b79.png": "/samurai-fan-site/static/media/samurai-logo-transparent.37d58b79.png",
@@ -19,9 +17,8 @@
     "static/media/samurai-the_ballad_of_buck_ravers.mp3": "/samurai-fan-site/static/media/samurai-the_ballad_of_buck_ravers.f9221cc9.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a4fde02.js",
-    "static/js/2.7d8e1b9c.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.1388ab8e.chunk.js"
+    "static/js/runtime-main.05e5326e.js",
+    "static/js/2.4d42e74c.chunk.js",
+    "static/js/main.19ede555.chunk.js"
   ]
 }
