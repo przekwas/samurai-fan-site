@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { screens } from '../../utils/styled-breakpoints';
 
 export const PlayerControlsDiv = styled.div`
 	margin-top: 1rem;
@@ -50,11 +51,15 @@ export const TrackButton = styled.button`
 	border: 0.15rem solid darkred;
 	border-radius: 10%;
 	padding: 0.5rem 1rem;
-	font-size: 2rem;
 	text-align: center;
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	${(props: TrackButtonProps) => props.reverse && `transform: scaleX(-1)`}
+	${(props: TrackButtonProps) => props.reverse && `transform: scaleX(-1);`}
+	
+	font-size: 1.75rem;
+	@media ${screens.md} {
+		font-size: 2rem;
+	}
 `;

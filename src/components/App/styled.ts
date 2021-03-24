@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const RootLayout = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	justify-content: space-around;
 	align-items: center;
 	min-height: 100vh;
 	color: gainsboro;

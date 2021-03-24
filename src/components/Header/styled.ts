@@ -1,7 +1,12 @@
 import styled from 'styled-components';
+import { screens } from '../../utils/styled-breakpoints';
 
 export const Logo = styled.img`
-	max-width: 20rem;
+	width: 10rem;
+
+	@media ${screens.md} {
+		width: 25rem;
+	}
 `;
 
 export const Greeting = styled.p`
